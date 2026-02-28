@@ -1,0 +1,11 @@
+{% extends "homecomms/_navigable_page.html" %}
+{% load static %}
+
+{% block content %}
+    Last reading: {{ last_temperature }}<br />
+
+    <div style="width: 800px;"><canvas id="temperatures"></canvas></div>
+{% endblock content %}
+{% block scripts %}
+    <script src="{% static 'js/charting.js' %}"></script>
+{% endblock scripts %}

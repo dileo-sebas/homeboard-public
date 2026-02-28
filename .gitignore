@@ -1,0 +1,7 @@
+**/__pycache__/**
+*pyc
+*env
+**/.vscode/**
+*mosquitto/data**
+*mosquitto/log**
+*mosquitto/config/mosquitto.passwd
